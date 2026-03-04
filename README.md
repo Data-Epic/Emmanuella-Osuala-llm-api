@@ -1,4 +1,6 @@
-# Customer Support Assistant 
+## LLM-Powered Customer Support Automation System
+An automation-focused conversational AI system designed to streamline customer support operations.
+This project integrates a LLaMA-based large language model via the Groq API to handle inquiries, complaints, feedback, and technical support in real time.
 
 This is a Python-based intelligent **Customer Support Assistant** powered by the `deepseek-r1-distill-llama-70b` model via the [GroqCloud API](https://console.groq.com).
 
@@ -55,14 +57,17 @@ Assistant: Our store is open Monday to Saturday, from 9 AM to 6 PM. Let me know 
 
 ## Ideas for Future Enhancements: ##
 
-- Add context-awareness and session memory.
+- Persistent conversational memory
+  
+- Web-based interface (FastAPI or Streamlit integration)
+  
+- Database-backed ticketing system
+  
+- REST API deployment
+  
+- Unit and integration testing
 
-- Build a web-based or mobile-friendly interface.
-
--  Connect to a real database or ticketing system (e.g., for tracking complaints).
-
-- Add unit tests for better code coverage and stability.
-
-## Acknowledgement: ##
-
-This project was developed as part of the Data Epic Mentorship Program (2025 Cohort).
+ ## Author
+  
+Developed by Emmanuella Osuala
+Data Analyst | Automation & LLM Integration
